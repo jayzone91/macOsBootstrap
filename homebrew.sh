@@ -37,3 +37,8 @@ source ~/.zshrc
 echo install node lts
 nvm install --lts
 nvm use --lts
+
+echo init chezmoi
+chezmoi init https://github.com/jayzone91/chezmoi.git
+chezmoi apply -v
+
