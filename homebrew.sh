@@ -11,10 +11,10 @@ echo (eval "$(/opt/homebrew/bin/brew shellenv)") >> ~/.zprofile
 echo "TODO: Hier muss ich noch mal ran! Das passt noch nicht! Da fehlt noch was."
 
 echo install Formulaes
-brew install --formulae bat cmake composer curl eza fd fzf go lua luajit luarocks mas neovim ninja nvm php powerlevel10k python ripgrep thefuck yt-dlp zig zoxide zsh-autosuggestions zsh-syntax-highlighting
+brew install --formulae chezmoi bat cmake composer curl eza fd fzf go lua luajit luarocks mas neovim ninja nvm php powerlevel10k python ripgrep thefuck yt-dlp zig zoxide zsh-autosuggestions zsh-syntax-highlighting
 
 echo install Casks
-brew install --cask alacritty alt-tab font-meslo-for-powerlevel10k appcleaner betterdisplay cheatsheet github linearmouse arc steam anydesk command-x raycast rectangle
+brew install --cask alacritty alt-tab font-meslo-for-powerlevel10k appcleaner betterdisplay cheatsheet github linearmouse arc steam anydesk command-x raycast
 
 echo write .zsrc file and rename old one
 mv ~/.zshrc ~/.zshrc.old
