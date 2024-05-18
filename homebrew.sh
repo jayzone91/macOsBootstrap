@@ -12,6 +12,8 @@ echo "TODO: Hier muss ich noch mal ran! Das passt noch nicht! Da fehlt noch was.
 
 echo install Formulaes
 brew install --formulae chezmoi bat cmake composer curl eza fd fzf go lua luajit luarocks mas neovim ninja nvm php powerlevel10k python ripgrep thefuck yt-dlp zig zoxide zsh-autosuggestions zsh-syntax-highlighting
+brew install koekeishiya/formulae/yabai
+brew install koekeishiya/formulae/skhd
 
 echo install Casks
 brew install --cask alacritty alt-tab font-meslo-for-powerlevel10k appcleaner betterdisplay cheatsheet github linearmouse arc steam anydesk command-x raycast
@@ -41,4 +43,3 @@ nvm use --lts
 echo init chezmoi
 chezmoi init https://github.com/jayzone91/chezmoi.git
 chezmoi apply -v
-
